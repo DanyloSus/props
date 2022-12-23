@@ -3,30 +3,31 @@ import Jokes from './components/Jokes';
 
 export default function App() {
   return (
-      <div className="contacts">
+      <div className="jokes">
         <Jokes 
-          img="mr-whiskerson.png"
-          name="Mr. Whiskerson"
-          number="(212) 555-1234"
-          mail="mr.whiskaz@catnap.meow"
+          name="Noodles"
+          start="What do you call a fake noodle?"
+          punchline="An impasta!"
         />
         <Jokes 
-          img="fluffykins.png"
-          name="Fluffykins"
-          number="(212) 555-2345"
-          mail="fluff@me.com"
+          name="Jeff Bezos"
+          start="What does Jeff Bezos do before he goes to sleep?"
+          punchline="He puts his PJ-Amazon!"
         />
         <Jokes 
-          img="felix.png"
-          name="Felix"
-          number="(212) 555-4567"
-          mail="thecat@hotmail.com"
+          name="Plates"
+          start="What did one plate say to the other?"
+          punchline="Dinner is on me!"
         />
         <Jokes 
-          img="pumpkin.png"
-          name="Pumpkin"
-          number="(0800) CAT KING"
-          mail="pumpkin@scrimba.com"
+          name="Frogs order"
+          start="What do frogs order at fast-food restaurants?"
+          punchline="French flies!"
+        />
+        <Jokes 
+          name="Two muffins"
+          start="Two muffins are baking in an oven. One of them looks to the other and says, 'Phew, it's getting hot in here!'"
+          punchline="The other looks back and says, 'Ack! A talking muffin!'"
         />
       </div>
   )
