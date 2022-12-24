@@ -1,33 +1,27 @@
 import React from 'react';
-import Jokes from './components/Jokes';
+import Joke from './components/Joke';
 
 export default function App() {
   return (
-      <div className="jokes">
-        <Jokes 
-          name="Noodles"
-          start="What do you call a fake noodle?"
-          punchline="An impasta!"
+      <div>
+        <Joke
+          punchline="I can't wait to see her face light up when she opens it."
         />
-        <Jokes 
-          name="Jeff Bezos"
-          start="What does Jeff Bezos do before he goes to sleep?"
-          punchline="He puts his PJ-Amazon!"
+        <Joke
+          setup="How did the hacker escape the police?"
+          punchline="He just ransomware!"
         />
-        <Jokes 
-          name="Plates"
-          start="What did one plate say to the other?"
-          punchline="Dinner is on me!"
+        <Joke 
+          setup="Why don't pirates travel on mountain roads?"
+          punchline="Scurvy."
         />
-        <Jokes 
-          name="Frogs order"
-          start="What do frogs order at fast-food restaurants?"
-          punchline="French flies!"
+        <Joke 
+          setup="Why do bees stay in the hive in the winter?"
+          punchline="Swarm."
         />
-        <Jokes 
-          name="Two muffins"
-          start="Two muffins are baking in an oven. One of them looks to the other and says, 'Phew, it's getting hot in here!'"
-          punchline="The other looks back and says, 'Ack! A talking muffin!'"
+        <Joke
+          setup="What's the best thing about Switzerland?"
+          punchline="I don't know, but the flag is a big plus!"
         />
       </div>
   )
